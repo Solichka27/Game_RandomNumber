@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="icon site" href="https://i.pinimg.com/736x/9b/f3/6a/9bf36a8e1a3a47a10acd9b0f8d134ca5.jpg">
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+  <div class="main">
+    <h1 class="title"> Game</h1>
+    <p class="rules"> We have selected a random number between 1 and 100. 
+      See if you can guess it in 10 turns or fewer. 
+      We'll tell you if your guess was too high or too low.
+    </p>
+
+    
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit" >
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+      <input type="submit" value="Start new game" class="resetButton">
+    </div>
+  </div>
+  <script src="script1.js"> </script>
+</body>
+</html>

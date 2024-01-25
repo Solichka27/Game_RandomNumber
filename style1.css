@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(160, 170, 178);
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.guessSubmit{
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+
+  
+.main{
+    padding: 30px;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 90px auto;
+    background-color: rgb(197, 201, 201);
+    border-style: double;
+    font-size: large;
+    font-weight: bold;
+}
+.form{
+    padding: 50px;
+    text-align: center;
+}
+  
+.form input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    height: 50px;
+    font-size: x-large;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.resetButton{
+    opacity: 0;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+.resetButton:active{
+    letter-spacing: 3px;
+    background-color: hsl(270, 2%, 37%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(186, 167, 167) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+.resetButton:hover {
+    letter-spacing: 3px;
+    background-color: hsl(270, 2%, 37%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(186, 167, 167) 0px 7px 29px 0px;
+}
